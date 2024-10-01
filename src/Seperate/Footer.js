@@ -19,16 +19,10 @@ function Footer() {
                                 <div className='row'>
                                     <div className='col-lg-3'>
                                         <div className='custom-left-side-fotter'>
-                                            <h2 className='mb-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>QUICK LINKS</h2>
+                                            <h2 className='mb-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>About Us</h2>
 
-                                            <p className='mt-3'>Indiamoney does not buy stolen or
-                                                broken gold. Selling stolen gold or
-                                                fake gold is a criminal offense and
-                                                if identified, the person and
-                                                ornaments will be handed over to
-                                                the POLICE. Anyone age of 21
-                                                or less can sell gold only with
-                                                Parent/guardian's written letter</p>
+                                            <p className='mt-3'>Indiamoney was started with aim of catering all kind of Financial Services for All type of Customers, Retail and Online .
+                                                We have started our operation in a small manner with a single bank DSA to now having around 10 NBFC/bant to cater the  needs of all type of customers  </p>
                                         </div>
                                     </div>
                                     <div className='col-lg-3'>
@@ -44,7 +38,7 @@ function Footer() {
                                                 <img src={mail} alt='' style={{ marginRight: '8px', width: '20px', height: '20px' }} />
                                                 <h6 className='fw-bold' style={{ margin: 0 }}> admin@indiamoney.co.in</h6>
                                             </p>
-                                            <h6 className='fw-bold'>State Presence :</h6>
+                                            <h6 className='fw-bold'>Registered Office  :</h6>
                                             <p>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, Maharashtra 400018</p>
                                             <h6 className='mt-3'>Admin Office :</h6>
                                             <p> No.10/11, 6th Floor , Chennai City Centre, , Dr Radha Krishnan Salai, Chennai, Tamil Nadu 600004</p>

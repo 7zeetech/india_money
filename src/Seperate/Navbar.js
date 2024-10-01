@@ -19,6 +19,7 @@ import { MdCreditScore } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
 import comeing from "../Assect/image/coming-soon.jpg"
 import stop from "../Assect/image/Onestop-Shop.jpg"
+import callbtn from '../Assect/image/call-icon.png'
 
 
 function Navbar() {
@@ -370,7 +371,7 @@ function Navbar() {
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <ul class="navbar-nav  mb-2 mb-lg-0">
                                         <li class="nav-item">
                                             <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">ATM LOCATOR</a>
                                         </li>
@@ -393,6 +394,10 @@ function Navbar() {
                                         </li>
 
                                     </ul>
+                                      <a  className='ms-2 d-flex justify-content-around' >
+                                        <img src={callbtn} ></img>
+                                       <p className='ms-2 num_txt' >9150740976</p> 
+                                      </a>
 
                                 </div>
                             </div>

@@ -213,7 +213,7 @@ function Home() {
                                     <div className='cols'>
                                         <a  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                             <div className='custom-inside-credit-product'>
-                                                <h5>Credit Card</h5>
+                                                <h5>CREDIT CARD</h5>
                                                 <p className='mt-3 mb-3'> Elevate Your Spending Experience.Get up to 10% cashback on what you love</p>
                                                 <img src={card1} alt=''></img>
                                                 <h6 className='mt-2'>Get Best Offers <FaArrowRightLong className='arrow-icon' /> </h6>
@@ -317,7 +317,7 @@ function Home() {
                                     <div className='cols'>
                                         <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                                             <div className='custom-inside-credit-product'>
-                                                <h5>Sell Your Gold</h5>
+                                                <h5>SELL YOUR GOLD</h5>
                                                 <p className='mt-3 mb-3'>Looking to sell your gold ?Contact us for the best rates and hassle-free transactions. Trustworthy service guaranteed.</p>
                                                 <img src={card9} alt=''></img>
                                                 <h6 className='mt-2'>Check Eligibility  <FaArrowRightLong className='arrow-icon' /> </h6>
@@ -495,7 +495,7 @@ function Home() {
                                             <img src={ban2} alt=""></img>
                                             {/* <h2 className='img-inside'>Banner 2 </h2> */}
                                             <div className='custom-line-1'>
-                                                <h2 className="fw-bold">Lorem Ipsum</h2>
+                                                <h2 className="fw-bold">Life Insurance</h2>
                                                 <p>Lorem Ipsum is simply dummy</p>
                                                 <p>text of the printing and typesetting industry</p>
                                                 <p>Lorem Ipsum has been the industry's standard dummy</p>
@@ -518,36 +518,27 @@ function Home() {
                     <div className='container'>
                         <div className='row'>
                             <div className='col-lg-12'>
-                                <h2 className='mb-3'>Lorem Ipsum</h2>
+                          
                                 <div className='row'>
                                     <div className='col-lg-4'>
                                         <div className='custom-inside-bottom-body'>
                                             <img src={sec3} alt=""></img>
-                                            <h2>Lorem ipsum dolor .</h2>
-                                            <p> Lorem Ipsum is simply dummy
-                                                text of the printing and typesetting industry.
-                                                Lorem Ipsum has been the industry's standard dummy
-                                                \text ever since the 1500s, when an unknown printer took a galley</p>
+                                            <h2>  FINANCIAL PLANING </h2>
+                                            <p> Take advantage of the current volatility by investing over the next 6 months in our equity funds in a systematic manner with a 6-month SIP. Invest Now.</p>
                                         </div>
                                     </div>
                                     <div className='col-lg-4'>
                                         <div className='custom-inside-bottom-body'>
                                             <img src={sec2} alt=""></img>
-                                            <h2>Lorem ipsum dolor .</h2>
-                                            <p> Lorem Ipsum is simply dummy
-                                                text of the printing and typesetting industry.
-                                                Lorem Ipsum has been the industry's standard dummy
-                                                \text ever since the 1500s, when an unknown printer took a galley</p>
+                                            <h2>MUTUAL FUNDS</h2>
+                                            <p>Invest in Mutual Funds online & Get access to a number of exclusive mutual fund research reports and ability to invest in Flexible Systematic Investment Plans.</p>
                                         </div>
                                     </div>
                                     <div className='col-lg-4'>
                                         <div className='custom-inside-bottom-body'>
                                             <img src={sec1} alt=""></img>
-                                            <h2>Lorem ipsum dolor .</h2>
-                                            <p> Lorem Ipsum is simply dummy
-                                                text of the printing and typesetting industry.
-                                                Lorem Ipsum has been the industry's standard dummy
-                                                \text ever since the 1500s, when an unknown printer took a galley</p>
+                                            <h2>PORTFOLI MANAGEMENT </h2>
+                                            <p> Our Portfolios are managed by registered and well established portfolio managers with the objective of consistent long-term returns.y</p>
                                         </div>
                                     </div>
                                 </div>
@@ -570,11 +561,11 @@ function Home() {
                         <div className='row'>
                             <div className='col-lg-12'>
                                 <div className=''>
-                                    <h2>Lorem Ipsum</h2>
-                                    <p>Lorem Ipsum is simply dummy</p>
-                                    <p>text of the printing and typesetting industry</p>
-                                    <p>Lorem Ipsum has been the industry's standard dummy</p>
-                                    <p>\text ever since the 1500s, when an unknown printer took a galley</p>
+                                    <h2>Digital Lending</h2>
+                                    <p>Be there for big financial moments !</p>
+                                    <p>Create smooth and hassle-free loan experiences </p>
+                                    <p>That delights you On every step of the way.</p>
+                            
                                 </div>
                             </div>
                         </div>
@@ -588,7 +579,7 @@ function Home() {
                         <div className='row'>
                             <div className='col-lg-12'>
                                 <div className='text-center'>
-                                    <h2>Lorem Ipsum</h2>
+                                    <h2>ONE STOP SOLUTION FOR ALL YOUR FINANCIAL NEEDS </h2>
 
                                 </div>
                             </div>
