@@ -480,9 +480,9 @@ function Home() {
                                     <div className='col-lg-5'>
                                         <div className='custom-inside-body-1'>
                                             <img src={ban1} alt=""></img>
-                                            <h2 className='img-inside'>Banner 2 </h2>
+                                            {/* <h2 className='img-inside'>Banner 2 </h2> */}
                                             <div className='custom-line-1'>
-                                                <h2 className="fw-bold">Lorem Ipsum</h2>
+                                                <h2 className="fw-bold">Gold Loan</h2>
                                                 <p>Lorem Ipsum is simply dummy</p>
                                                 <p>text of the printing and typesetting industry</p>
                                                 <p>Lorem Ipsum has been the industry's standard dummy</p>
@@ -493,7 +493,7 @@ function Home() {
                                     <div className='col-lg-5'>
                                         <div className='custom-inside-body-2'>
                                             <img src={ban2} alt=""></img>
-                                            <h2 className='img-inside'>Banner 2 </h2>
+                                            {/* <h2 className='img-inside'>Banner 2 </h2> */}
                                             <div className='custom-line-1'>
                                                 <h2 className="fw-bold">Lorem Ipsum</h2>
                                                 <p>Lorem Ipsum is simply dummy</p>
