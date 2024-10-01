@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-color: #056406;
+    --second-colo: #02C37E;
+}
+
+.custom-footer {
+    border: 0px solid red;
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+}
+.custom-footer h2{
+    font-size: 20px;
+}
+
+.custom-left-side-fotter {
+    border: 0px solid red;
+}
+
+.custom-left-side-fotter img {
+    border: 0px solid red;
+    width: 50px;
+}
+
+.custom-left-side-fotter p {
+    color: #797979;
+}
+
+.custom-left-one-side-fotter {
+    border: 0px solid red;
+}
+
+.custom-left-one-side-fotter img {
+    width: 20px;
+}
+
+.custom-left-one-side-fotter p {
+    color: #797979;
+    line-height: 35px;
+}
+
+.custom-list {
+    list-style: none;
+    padding: 0px;
+    color: #797979;
+}
+
+.custom-list li {
+    color: #797979;
+    line-height: 35px;
+}
+.custom-list li:hover {
+    color: white;
+    transition: color .2s ease-out;
+}
+
+.custom-icons {
+    border: 0px solid red;
+}
+
+.custom-icons p {
+    border: 0px solid red;
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-icons p:hover {
+    transform: scale(1.2);
+}

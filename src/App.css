@@ -1,0 +1,768 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: var(--primary-color) !important;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+:root {
+  --primary-color: #056406;
+  --second-colo: #02C37E;
+  --third-color:  #116a9e;
+  --white-color:white;
+  --litegreen-color:#D4FFE3;
+ 
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: white !important;
+}
+
+p {
+  margin-bottom: 0px;
+}
+ 
+.custom-navbar-1 a{
+  color: white !important;
+}
+
+.custom-navbar-1 a{
+  color: white !important;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<topnav>>>>>>>>>>>>>>> */
+.custom-web-nav {
+  display: block;
+}
+
+.custom-mobile-nav {
+  display: none;
+}
+
+.custom-nav-bar {
+  border: 0px solid red;
+  margin: 0px -12px;
+  background-color: var(--primary-color);
+  padding: 30px 0px;
+}
+
+.custom-inside-nav {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.custom-inside-nav .nav-item {
+  margin-right: 50px;
+}
+
+.custom-inside-nav a {
+  color: white !important;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.custom-form-1 {
+  border-radius: 50px;
+  background: var(--second-colo);
+  border-color: transparent !important;
+}
+
+.custom-lo-1 p {
+  font-size: 15px !important;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 20px 20px 20px 20px;
+  width: 450px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-icon {
+  position: absolute;
+  right: 25px;
+  /* Adjust based on the desired spacing */
+  pointer-events: none;
+  /* Allows clicks to pass through to the input */
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: var(--second-colo) !important;
+  border-color: transparent !important;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-credit-buttom {
+  display: none;
+}
+
+.custom-mobile-logo {
+  width: 8%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<custom-second-2>>>>>>>>>>>>>>>>> */
+.custom-second-2 {
+  border: 0px solid red;
+  margin: 0px -12px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 30px 0px;
+}
+
+.custom-inside-second-2 {
+  border: 0px solid red;
+}
+
+.custom-inside-second-2 img {
+  width: 80px;
+}
+
+.custom-button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 40px;
+
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<custom-payment-web>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-payment-web {
+  border: 0px solid red;
+  margin: 0px -12px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: var(--primary-color);
+  display: block;
+}
+
+.custom-payment-inside {
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+  padding: 50px;
+  border-radius: 115px;
+  border: 2px solid var(--primary-color);
+  position: relative;
+  bottom: -40px;
+  z-index: 3;
+
+}
+
+.custom-payment-inside img {
+
+  width: 50px;
+}
+
+.custom-payment-mobile {
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+  padding: 15px;
+  border-radius: 35px;
+  box-shadow: 10px 10px 10px 10px grey;
+  margin-top: 30px;
+  display: none;
+}
+
+.custom-payment-mobile img {
+  width: 50px;
+}
+
+.pay-box {
+  margin-top: 20px;
+}
+
+.pay-box p {
+  font-size: 13px;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+.custom-mobile-icon {
+  color: var(--primary-color);
+  font-size: 35px;
+}
+
+.custom-mobile-icon-1 {
+  color: #180564;
+  font-size: 35px;
+}
+
+.custom-mobile-icon-2 {
+  color: #8122d4;
+  font-size: 35px;
+}
+
+.custom-mobile-icon-3 {
+  color: blue;
+  font-size: 35px;
+}
+
+.custom-mobile-icon-4 {
+  color: yellow;
+  font-size: 35px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<swiper>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.custom-carosel {
+  padding: 0px 0px;
+  border:0px solid red;
+  /* background-image: url("./Assect/image/banner-1.gif"); */
+  background-image: url("./Assect/image/life-insurance-1.png");
+  object-fit: cover;
+  background-position: -85%;
+  margin: 0px -12px;
+  /* padding:0px  20px; */
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: center;
+
+}
+.custom-carosel .custom-right-swiper-1{
+  border: 0px solid red;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.custom-carosel .custom-right-swiper-1 button{
+  border: 0px solid red;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.custom-carosel .custom-swiper-gold{
+  background-image: url("../src/Assect/image/gold-loan-1.png");
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.custom-carosel .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-carosel .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carosel .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-carosel .inside-swiper-home img {
+  object-fit: cover;
+}
+
+.custom-carosel .swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+.custom-carosel .swiper-button-prev, .custom-carosel .swiper-button-next{
+  color:black ;
+  border: 1px solid var(--primary-color);
+  font-size: 18px !important;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.custom-carosel .swiper-button-prev:after, .custom-carosel .swiper-button-next:after{
+font-size: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<<<custom-customer-1>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-customer-1{
+  border:0px solid red;
+  margin:0px -12px;
+  text-align: center;
+  padding:10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.custom-inside-customer-1{
+  border:0px solid red;
+}
+.custom-inside-customer-1 p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-icon{
+  font-size: 20px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<customer-credit-product>>>>>>>>>>>>>>>>>>>>> */
+.customer-credit-product{
+  border: 0px solid red;
+  margin:0px -12px;
+  padding: 35px 0px;
+  display: block;
+}
+
+.customer-credit-product-mobile{
+  display: none;
+
+}
+
+.customer-credit-product h2{
+  color: #1b1dc7;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 128px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.customer-credit-product h2::after{
+  content: "";
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  background: #1b1dc7;
+  border-radius: 4px;
+  top: 10px;
+  right: 0;
+}
+.custom-inside-credit-product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:260px;
+  padding: 16px 14px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(235, 239, 247, .8);
+  box-shadow: 0 2px 4px 0 rgba(5, 47, 95, .04), 0 12px 16px 0 rgba(52, 105, 203, .12);
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: background-color .3s, box-shadow .3s; /* Smooth transition for background color and box-shadow */
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.custom-inside-credit-product:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+  box-shadow: 0 4px 8px 0 rgba(5, 47, 95, .1), 0 16px 20px 0 rgba(52, 105, 203, .15); /* Enhanced shadow on hover */
+}
+
+/* Styling for the icon */
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+/* Animate the icon to move right on hover */
+.custom-inside-credit-product:hover .arrow-icon {
+  transform: translateX(10px); /* Move the icon 10px to the right */
+}
+
+.custom-inside-credit-product img{
+  width: 60px;
+  position: absolute;
+  top:0;
+  right:15px;
+}
+
+.custom-inside-credit-product h6{
+  color: var(--primary-color);
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<custom-body-1>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-body-1 {
+  border: 0px solid red;
+  margin: 0px -12px;
+  padding: 50px 0px 20px 0px;
+
+}
+
+.custom-line-1 {
+  padding: 20px 30px;
+  color: var(--primary-color);
+}
+
+.custom-inside-body-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.custom-inside-body-1 img {
+  width: 100%;
+  height: 400px;
+}
+
+.img-inside {
+  position: absolute;
+  bottom: 220px;
+  left: 55px;
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.custom-inside-body-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.custom-inside-body-2 img {
+  width: 100%;
+  height: 400px;
+}
+
+.custom-right-side-img img {
+  position: relative;
+  right: 0;
+  bottom: 100px;
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<custom-bottom-body>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-bottom-body {
+  background-image: url("../src/Assect/image/sec_2-ban.png");
+  margin: 0px -12px;
+  padding: 150px 40px;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.custom-inside-bottom-body {
+  border: 0px solid red;
+}
+
+.custom-inside-bottom-body img {
+  width: 100%;
+}
+
+.custom-inside-bottom-body h2 {
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.custom-left-side-img {
+  margin: 0px -12px;
+}
+
+.custom-left-side-img img {
+  position: relative;
+  left: 0;
+  bottom: 100px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<custom-body-3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-body-3 {
+  border: 0px solid red;
+  margin: 0px -12px;
+  padding: 50px 30px;
+  background-size: cover;
+  background-image: url(../src/Assect/image/sec-3-ban.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<custom-body-4>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.custom-body-4 {
+  border: 0px solid red;
+  margin: 0px -12px;
+  padding: 50px 30px;
+  background-size: cover;
+  background-image: url(../src/Assect/image/sec-4-ban.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 30px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width:280px) and (max-width:991px) {
+
+  /* <<<<<<<<<<<<<<<<secondnavbar>>>>>>>>>>>>>> */
+  .custom-web-nav {
+    display: none;
+  }
+
+  .custom-mobile-nv-h{
+    font-size: 10px;
+    margin-top: 6px;
+  }
+
+  .custom-mobile-nav {
+    display: block;
+  }
+
+  .custom-button-second-nav {
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+  }
+
+  .custom-button {
+    margin-right: 0px;
+
+  }
+
+  .custom-credit-buttom {
+    border: 0px solid var(--primary-color);
+    margin-top: 20px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding: 15px;
+    display: block;
+  }
+
+  .custom-button-2 {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .custom-button-2:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .custom-web-button-1 {
+    border: 0px solid red;
+    margin: 20px 0px;
+  }
+
+  /* 
+  .custom-web-button-1 a {
+    flex-direction: column;
+    display: flex;
+  } */
+
+
+  .search-container input {
+    width: 100%;
+  }
+
+  /* <<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>> */
+
+  /* <<<<<<<<<<<<<<<<<<<payment>>>>>>>>>>>>>>>>> */
+  .custom-payment-web {
+    display: none;
+  }
+
+  .custom-payment-mobile {
+    display: block;
+  }
+
+  /* <<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>> */
+
+  /* <<<<<<<<<<<<<<<swiper>>>>>>>>>>>> */
+  .custom-carosel {
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .inside-swiper-home img {
+    object-fit: cover;
+    height: 300px;
+  }
+
+  .custom-inside-body-1 img {
+    width: 100%;
+  }
+
+  .img-inside {
+    position: absolute;
+    bottom: 230px;
+    left: 25px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .custom-right-side-img img {
+    bottom: 60px;
+  }
+
+  .custom-inside-bottom-body {
+    margin-top: 20px;
+  }
+
+  .custom-bottom-body {
+    background-image: none;
+    background-color: var(--primary-color);
+    padding: 20px;
+  }
+  .custom-services{
+    padding: 0px !important;
+  }
+  .custom-right-gold img{
+    width: 100%;
+  }
+  .custom-gold-box{
+    margin-top: 20px;
+  }
+  .custom-swiper-gold{
+    height: 200px !important;
+  }
+  .inside-swiper-gold h2{
+      font-size: 10px;
+  }
+  .custom-gold-btn{
+    font-size: 10px;
+  }
+  .custom-inside-customer-1{
+    margin-bottom: 10px;
+  }
+  .navbar-expand-lg .navbar-brand{
+    font-size: 15px;
+    justify-content: left !important;
+    align-items: flex-start !important;
+    /* width: 65%; */
+  }
+  .custom-mobile-logo {
+    width: 12%;
+}
+.custom-inside-customer-1 p{
+  display: flex;
+  justify-content: left;
+
+}
+
+}
+
+@media (min-width:280px) and (max-width:991px) {
+  .customer-credit-product{
+    display: none;
+  }
+  .customer-credit-product-mobile{
+    display: block;
+  }
+
+  .customer-credit-product-mobile h2{
+    color: #1b1dc7;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-right: 128px;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+  }
+  .customer-credit-product-mobile h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    background: #1b1dc7;
+    border-radius: 4px;
+    top: 10px;
+    right: 0;
+  }
+  .custom-inside-credit-product-mobile{
+    border:0px solid red;
+    text-align: center;
+    margin-right: 10px;
+    width: 40px;
+  }
+  .custom-inside-credit-product-mobile img{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .custom-inside-credit-product-mobile img{
+    width: 25px;
+  }
+  .custom-inside-credit-product-mobile h6{
+   font-size: 10px;
+  }
+  .custom-inside-credit-product-mobile button{
+    border: none;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    color:var(--white-color);
+    font-size: 10px;
+    width:80px;
+  }
+}

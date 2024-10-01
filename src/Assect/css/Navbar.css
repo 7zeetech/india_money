@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.custom-navbar-1 {
+    margin: 0px -12px;
+    background-color: var(--primary-color) !important;
+}
+
+.custom-navbar-1 .navbar-nav li{
+    margin-right: 40px;
+}
+
+.commeing-soon-modal img{
+    width: 100%;
+}
+

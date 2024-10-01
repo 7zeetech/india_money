@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #056406;
+    --second-colo: #02C37E;
+    --third-color: #116a9e;
+    --white-color: white;
+    --litegreen-color: #D4FFE3;
+
+}
+
+
+.custom-creditcard {
+    border: 0px solid red;
+    padding: 20px;
+}
+
+
+.custom-outside-credit-left {
+    border: 0px solid red;
+    background-color: var(--litegreen-color);
+    padding: 10px;
+}
+
+.custom-left-credit {
+    border: 0px solid red;
+    padding: 20px;
+}
+
+.custom-left-credit h6 {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.custom-left-credit ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.custom-left-credit li {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.custom-left-credit .finance-icon1 {
+    font-size: 22px;
+    color: #DE3B40;
+    margin-right: 10px;
+}
+
+.custom-left-credit .finance-icon2 {
+    font-size: 22px;
+    color: #197DCA;
+    margin-right: 10px;
+}
+
+.custom-left-credit .finance-icon3 {
+    font-size: 22px;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.custom-left-credit .finance-icon4 {
+    font-size: 22px;
+    color: #EFB034;
+    margin-right: 10px;
+}
+
+.custom-left-credit img {
+    width: 100%;
+}
+
+.custom-right-swiper .form-check-input {
+    border: 3px solid var(--primary-color);
+}
+
+.custom-credit-box-1 {
+    border: 0px solid red;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.custom-credit-box-1 img {
+    width: 100%;
+}
+
+
+.custom-credit-box-mobile-view {
+    display: none;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<swiper>>>>>>>>>>>>>>>> */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.credit-swiper {
+    border: 0px solid red;
+    margin: 10px;
+    background-color: var(--white-color);
+    padding: 10px;
+}
+
+.custom-swipper-credit-img {
+    border: 0px solid red;
+    width: 100%;
+}
+
+.custom-swipper-credit-img-2 {
+    width: 100%;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>> */
+
+.custom-right-swiper {
+    border: 0px solid red;
+    padding: 20px;
+}
+
+.custom-right-swiper h4 {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input[type="password"] {
+    padding-right: 2.5rem;
+    /* Adjust as needed */
+}
+
+.input-wrapper .form-check-input {
+    position: absolute;
+    right: 0.5rem;
+    /* Adjust as needed */
+    z-index: 1;
+}
+
+.custom-right-swiper .form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.custom-right-swiper .form-check-input:focus {
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: NONE;
+}
+
+.credit-btn {
+    background-color: var(--primary-color);
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.custom-zero{
+    margin-bottom: 10px;
+}
+
+.custom-down-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.custom-market{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* <<<<<<<<<<<<<<<<<<<custom-credit-box >>>>>>>>>>>>>>> */
+.custom-credit-box {
+    border: 0px solid blue;
+    padding: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<end >>>>>>>>>>>>>>>>>>>>> */
+/* <<<<<<<<<<<<<<<<<<<<<<<custom-credit-faq >>>>>>>>> */
+.custom-credit-faq {
+    border: 0px solid red;
+    padding: 20px;
+}
+
+.custom-inside-faq ul li{
+    line-height: 35px;
+}
+
+/* <<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width:280px) and (max-width:991px) {
+    .custom-creditcard {
+        padding: 20px 0px;
+    }
+
+    .custom-left-credit {
+        padding: 20px 0px;
+    }
+
+    .custom-left-credit li {
+        font-size: 12px;
+    }
+
+
+    .custom-credit-box-mobile-view {
+        display: block;
+    }
+
+    .custom-credit-box-1 {
+        border: 0px solid red;
+        margin-bottom: 25px;
+        margin-right: 10px;
+    }
+
+    .custom-credit-box-1 img {
+        width: 100%;
+    }
+
+    .custom-credit-box{
+        display: none;
+    }
+    .custom-market{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .custom-right-swiper{
+        padding: 20px 0px !important;
+    }
+    .custom-zero p{
+        font-size: 14px;
+    }
+    .custom-credit-faq ul{
+        padding-left: 0px;
+    }
+}
