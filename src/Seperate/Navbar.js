@@ -424,7 +424,7 @@ function Navbar() {
                                     <div className='commeing-soon-modal'>
                                         <img src={comeing}></img>
                                        
-                                        <p className='text-center'> <span>One Stop Solution</span><br></br> For All Your Financial Needs</p>
+                                        <p className='text-center fw-bold '> <span>One Stop Solution</span><br></br> For All Your Financial Needs</p>
 
                                     </div>
                                     <div>

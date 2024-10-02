@@ -26,7 +26,13 @@ function Footer() {
                                     </div>
                                     <div className='col-lg-3'>
                                         <div className='custom-left-one-side-footer'>
-                                            <h2>REACH US</h2>
+                                            <h2>Reach Us</h2>
+
+                                            <h6 className='mt-3' style={{textDecoration:"underline"}}>Admin Office :</h6>
+                                            <p className='mb-3'> No.10/11, 6th Floor , Chennai City Centre,  Dr Radha Krishnan Salai, Chennai, Tamil Nadu 600004, India  400018.</p>
+                                            <h6 className='fw-bold mt-3' style={{textDecoration:"underline"}}>Registered Office  :</h6>
+                                            <p className='mb-3'>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, India  400018.</p>
+
                                             <p style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
                                                 <img src={whatsapp} alt='' style={{ marginRight: '8px', width: '20px', height: '20px', fontWeight: "bold" }} /> 9150740976
                                             </p>
@@ -37,15 +43,12 @@ function Footer() {
                                                 <img src={mail} alt='' style={{ marginRight: '8px', width: '20px', height: '20px' }} />
                                                 <h6 className='fw-bold' style={{ margin: 0 }}> admin@indiamoney.co.in</h6>
                                             </p>
-                                            <h6 className='fw-bold'>Registered Office  :</h6>
-                                            <p>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, Maharashtra 400018</p>
-                                            <h6 className='mt-3'>Admin Office :</h6>
-                                            <p> No.10/11, 6th Floor , Chennai City Centre, , Dr Radha Krishnan Salai, Chennai, Tamil Nadu 600004</p>
+
                                         </div>
                                     </div>
                                     <div className='col-lg-3'>
                                         <div className='custom-left-one-side-fotter'>
-                                            <h2>OUR SERVICES </h2>
+                                            <h2>Our Services </h2>
                                             <ul class="custom-list">
                                                 <li class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>Cash For Gold</li>
                                                 <li class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>Financial</li>
@@ -66,7 +69,7 @@ function Footer() {
                                     </div>
                                     <div className='col-lg-3'>
                                         <div className='custom-left-one-side-fotter'>
-                                            <h2 data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>QUICK LINKS</h2>
+                                            <h2 data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>Quick Links</h2>
                                             <ul class="custom-list">
                                                 <li class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>Discover Indiamoney Finserv</li>
                                                 <li class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>Release Pledged Gold</li>

@@ -246,7 +246,13 @@
 }
 
 .contact-1{
-  font-size: 22px !important;
+  font-size: 25px !important;
+}
+
+.contact-1 svg{
+  border: 1px solid yellow;
+  padding: 3px;
+  border-radius: 50px;
 }
 
   /* <<<<<<<<<<<<<<<<<end>>>>>>>>> */

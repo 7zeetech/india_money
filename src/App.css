@@ -593,8 +593,8 @@ p {
   }
 
   .custom-mobile-nv-h {
-    font-size: 10px;
-    margin-top: 6px;
+    font-size: 16px;
+    margin-top: 0px;
   }
 
   .custom-mobile-nav {
@@ -753,6 +753,7 @@ p {
   .custom-inside-customer-1 p {
     display: flex;
     justify-content: left;
+    font-size: 12px;
 
   }
 
