@@ -124,7 +124,7 @@ function Home() {
                                                 <h5 className='fw-bold'>Get Your Latest CIBIL Credit Report For Free</h5>
                                                 <button  data-bs-toggle="modal" data-bs-target="#staticBackdrop-1"  className="mt-2 mb-4">Check Your Free Credit Score</button>
                                                 {/* <p><img src={ring} alt=""></img> <span><stong className="fw-bold">2,00,00,000+</stong>  Credit Repair  Dispute Resolution ,  Hassle-Free Services</span></p> */}
-                                                <p className='fw-bold'>Credit Repair  &nbsp;<IoStarSharp className='customer-icon ' /> Dispute Resolution &nbsp; <IoStarSharp className='customer-icon ' /> Hassle-Free Services</p>
+                                                <p className='fw-bold' style={{fontSize:"15px"}}> <IoStarSharp className='customer-icon ' style={{marginTop:"-6px"}}/> Credit Repair  &nbsp;<IoStarSharp className='customer-icon '  style={{marginTop:"-6px"}}/> Dispute Resolution &nbsp; <IoStarSharp className='customer-icon '  style={{marginTop:"-6px"}}/> Hassle-Free Services</p>
 
                                             </div>
                                         </div>

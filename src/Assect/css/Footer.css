@@ -59,6 +59,16 @@
     transition: color .2s ease-out;
 }
 
+.custom-admin:hover{
+    color: white;
+    transition: color .2s ease-out;
+}
+
+.custom-admin{
+    color: #797979;
+    line-height: 35px;
+}
+
 .custom-icons {
     border: 0px solid red;
 }

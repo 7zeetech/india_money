@@ -28,10 +28,10 @@ function Footer() {
                                         <div className='custom-left-one-side-footer'>
                                             <h2>Reach Us</h2>
 
-                                            <h6 className='mt-3' style={{textDecoration:"underline"}}>Admin Office :</h6>
-                                            <p className='mb-3'> No.10/11, 6th Floor , Chennai City Centre,  Dr Radha Krishnan Salai, Chennai, Tamil Nadu 600004, India  400018.</p>
-                                            <h6 className='fw-bold mt-3' style={{textDecoration:"underline"}}>Registered Office  :</h6>
-                                            <p className='mb-3'>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, India  400018.</p>
+                                            <h6 className='mt-3' style={{ textDecoration: "underline" }}>Admin Office :</h6>
+                                            <p className='mb-3 custom-admin' > No.10/11, 6th Floor , Chennai Citi Centre,  Dr Radha Krishnan Road, Chennai,<br></br> India - 600004.</p>
+                                            <h6 className='fw-bold mt-3' style={{ textDecoration: "underline" }}>Registered Office  :</h6>
+                                            <p className='mb-3  custom-admin'>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, India - 400018.</p>
 
                                             <p style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
                                                 <img src={whatsapp} alt='' style={{ marginRight: '8px', width: '20px', height: '20px', fontWeight: "bold" }} /> 9150740976
@@ -60,10 +60,18 @@ function Footer() {
                                             </ul>
                                             <h6 className='fw-bold'>Follow us on social platforms</h6>
                                             <div className='d-flex custom-icons mt-3 mb-3'>
-                                                <p><FaYoutube /></p>
-                                                <p><FaFacebook /></p>
-                                                <p><FaInstagram /></p>
-                                                <p><FaTwitter /></p>
+                                                <a href='https://www.youtube.com/@indiamoneyfinserv' target='blank'>
+                                                    <p><FaYoutube /></p>
+                                                </a>
+                                                <a href='https://www.facebook.com/reel/1213871459889889' target='blank'>
+                                                    <p><FaFacebook /></p>
+                                                </a>
+                                                <a href='https://www.instagram.com/p/DAnhfcAMpaZ/' target='blank'>
+                                                    <p><FaInstagram /></p>
+                                                </a>
+                                                <a href='https://x.com/indiamoneyfs?mx=2' target='blank'>
+                                                    <p><FaTwitter /></p>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
