@@ -417,7 +417,7 @@ function Navbar() {
                         <div class="modal-dialog">
                             <div class="modal-content  custom-top-modal">
                                 <div class="modal-header  custom-header-modal">
-                                    <h1 class="modal-title fs-12 fw-bold" id="staticBackdropLabel-1">QUICK LINKS</h1>
+                                    <h1 class="modal-title fs-12 fw-bold" id="staticBackdropLabel-1"></h1>
                                     <button type="button" class="modal-button" data-bs-dismiss="modal" aria-label="Close"><RxCross2 /></button>
                                 </div>
                                 <div class="modal-body">

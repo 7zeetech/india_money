@@ -79,7 +79,7 @@ function Home() {
                             <div className='col-lg-12 p-0'>
                                 <div className="custom-11111">
                                     <div className="row  justify-content-between m-0">
-                                        <div className="col-lg-4 p-0">
+                                        <div className="col-lg-5 p-0">
                                             <div className="custom-left-swiper-1">
                                                 <>
                                                     <Swiper
@@ -121,9 +121,11 @@ function Home() {
                                         </div>
                                         <div className="col-lg-4">
                                             <div className="custom-right-swiper-1 justify-content-center align-items-center">
-                                                <h4>Get your latest Experian credit report for free here</h4>
-                                                <button className="mt-2 mb-4">Check your free Credit Score</button>
-                                                <p><img src={ring} alt=""></img> <span><stong className="fw-bold">2,00,00,000+</stong>  people have got their Credit Scores for FREE!</span></p>
+                                                <h5 className='fw-bold'>Get your latest Experian credit report for free here</h5>
+                                                <button  data-bs-toggle="modal" data-bs-target="#staticBackdrop-1"  className="mt-2 mb-4">Check Your Free Credit Score</button>
+                                                {/* <p><img src={ring} alt=""></img> <span><stong className="fw-bold">2,00,00,000+</stong>  Credit Repair  Dispute Resolution ,  Hassle-Free Services</span></p> */}
+                                                <p className='fw-bold'>Credit Repair , Dispute Resolution , Hassle-Free Services</p>
+
                                             </div>
                                         </div>
                                     </div>
@@ -184,8 +186,14 @@ function Home() {
                                             <p><IoStarSharp  className='customer-icon me-2'/> Investing in Your Dreams</p>
                                         </div>
                                     </div>
+                                    <div className='col-lg-4'>
+                                        <div className='custom-inside-customer-1'>
+                                            <p><IoStarSharp  className='customer-icon me-2'/>  Your Journey To Classy Financial Freedom</p>
+                                        </div>
+                                    </div>
                                   
                                 </div>
+                              
                             </div>
                         </div>
                     </div>

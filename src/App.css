@@ -132,7 +132,7 @@ p {
 }
 
 .custom-mobile-logo {
-  width: 8%;
+  width: 10%;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -286,7 +286,7 @@ p {
 }
 
 .custom-carosel .custom-swiper-gold {
-  background-image: url("../src/Assect/image/gold-loan-1.png");
+  background-image: url("../src/Assect/image/homeloan-1.jpg");
   height: 300px;
   width: 100%;
   background-repeat: no-repeat;
