@@ -16,6 +16,14 @@
     width: 100%;
 }
 
+.commeing-soon-modal p{
+  font-size: 30px !important;
+}
+
+.commeing-soon-modal p span{
+    color: yellow;
+  }
+
 
 .num_txt{
     font-size: 19px

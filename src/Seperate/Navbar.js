@@ -20,6 +20,8 @@ import { RxCross2 } from "react-icons/rx";
 import comeing from "../Assect/image/coming-soon.jpg"
 import stop from "../Assect/image/Onestop-Shop.jpg"
 import callbtn from '../Assect/image/call-icon.png'
+import { MdPhoneInTalk } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
 
 
 function Navbar() {
@@ -378,12 +380,12 @@ function Navbar() {
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">BANK ACCOUNT</a>
                                         </li>
-                                        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <li class="nav-item"  data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
 
                                             <a class="nav-link" href="#">CREDIT SCORE</a>
 
                                         </li>
-                                        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <li class="nav-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <a class="nav-link" href="#">CIBIL CORRECTION</a>
                                         </li>
                                         <li class="nav-item">
@@ -394,10 +396,10 @@ function Navbar() {
                                         </li>
 
                                     </ul>
-                                      <a  className='ms-2 d-flex justify-content-around' >
-                                        <img src={callbtn} ></img>
-                                       <p className='ms-2 num_txt' >9150740976</p> 
-                                      </a>
+                                     
+                                       
+                                       <p className='ms-2 num_txt text-white' > <img src={callbtn} ></img> 9150740976</p> 
+                                     
 
                                 </div>
                             </div>
@@ -421,17 +423,18 @@ function Navbar() {
                                 <div class="modal-body">
                                     <div className='commeing-soon-modal'>
                                         <img src={comeing}></img>
-                                        <img className='mt-3' src={stop}></img>
+                                       
+                                        <p className='text-center'> <span>One Stop Solution</span><br></br> For All Your Financial Needs</p>
 
                                     </div>
                                     <div>
                                         <div className='d-flex mt-4 align-items-baseline'>
-                                            <h5 >Phone Number:</h5>
-                                            <p className='mt-0 ms-3'>9150740976</p>
+                                            <h5 >Phone Number :</h5>
+                                            <p className='mt-0 ms-3 fs-5'><MdPhoneInTalk /> 9150740976</p>
                                         </div>
                                         <div className='d-flex mt-4  align-items-baseline'>
-                                            <h5 >Email Address:</h5>
-                                            <p className='mt-0 ms-3'>admin@indiamoney.co.in</p>
+                                            <h5 >Email Address :</h5>
+                                            <p className='mt-0 ms-3 fs-5'><CiMail /> admin@indiamoney.co.in</p>
                                         </div>
 
 

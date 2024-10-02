@@ -211,7 +211,7 @@ function Home() {
                                 <h2>Credit Products</h2>
                                 <div className='row row-cols-lg-4 row-cols-sm-2 row-cols-md-2'>
                                     <div className='cols'>
-                                        <a  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a href='/creditcard'>
                                             <div className='custom-inside-credit-product'>
                                                 <h5>CREDIT CARD</h5>
                                                 <p className='mt-3 mb-3'> Elevate Your Spending Experience.Get up to 10% cashback on what you love</p>
@@ -222,7 +222,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a href='/financial'>
                                             <div className='custom-inside-credit-product'>
                                                 <h5>FINANCIAL MARKETS</h5>
                                                 <p className='mt-3 mb-3'>The physical & digital of investing starts here. Brace yourselves for intuitive and financial solutions for beginners, intermediate as well as advanced </p>
@@ -233,7 +233,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>INSURANCE</h5>
                                                 <p className='mt-3 mb-3'>Simplify your life with Here, the one-stop app for managing your insurance, vehicles, health, pets & more!</p>
@@ -244,7 +244,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>INVESTMENTS</h5>
                                                 <p className='mt-3 mb-3'>The best investment products – Mutual Funds, FD/RD, Gold/Silver, Bonds, Senior Citizen Saving Plans etc.</p>
@@ -256,7 +256,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>LOAN</h5>
                                                 <p className='mt-3 mb-3'>Apply for personal loans online up to Rs.40 lakh instantly at the lowest interest rates. Apply For Home Loan with minimal documentation.</p>
@@ -268,7 +268,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a  data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>PAYMENT </h5>
                                                 <p className='mt-3 mb-3'>The Largest digital payment platform makes it secure and seamless to pay using UPI, make bill payments, recharge mobiles, DTH, data card & Metro Card etc</p>
@@ -280,7 +280,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a href='/register'>
                                             <div className='custom-inside-credit-product'>
                                                 <h5>REGISTRATION</h5>
                                                 <p className='mt-3 mb-3'>Get licenses and registrations required to operate a business in India online. Experience fast services and low prices.</p>
@@ -291,7 +291,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>SAVINGS</h5>
                                                 <p className='mt-3 mb-3'>We help you build a corpus for long-term and short-term financial goals while providing life insurance coverage.</p>
@@ -303,7 +303,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>STAMP PAPER</h5>
                                                 <p className='mt-3 mb-3'>Order e stamp paper online in Chennai and get home delivery from the registered stamp vendor in Tamilnadu and deliver stamp paper at your doorstep </p>
@@ -315,7 +315,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                                        <a href='/goldbuyer'>
                                             <div className='custom-inside-credit-product'>
                                                 <h5>SELL YOUR GOLD</h5>
                                                 <p className='mt-3 mb-3'>Looking to sell your gold ?Contact us for the best rates and hassle-free transactions. Trustworthy service guaranteed.</p>
@@ -326,7 +326,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>TAX</h5>
                                                 <p className='mt-3 mb-3'>File your Taxes now in 3 easy steps, on India's most trusted Income Tax filing portal. Zero data-entry filing experience. Auto-selection of ITR type and regime.</p>
