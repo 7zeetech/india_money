@@ -11,27 +11,31 @@
 }
 
 ::-webkit-scrollbar {
-  width: 12px; /* Width of the scrollbar */
+  width: 12px;
+  /* Width of the scrollbar */
 }
 
 /* Style the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color); /* Color of the scrollbar thumb */
-  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+  background: var(--primary-color);
+  /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  /* Round the corners of the scrollbar thumb */
 }
 
 /* Style the scrollbar track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the scrollbar track */
+  background: #f1f1f1;
+  /* Color of the scrollbar track */
 }
 
 :root {
   --primary-color: #056406;
   --second-colo: #02C37E;
-  --third-color:  #116a9e;
-  --white-color:white;
-  --litegreen-color:#D4FFE3;
- 
+  --third-color: #116a9e;
+  --white-color: white;
+  --litegreen-color: #D4FFE3;
+
 }
 
 ::-ms-input-placeholder {
@@ -42,12 +46,12 @@
 p {
   margin-bottom: 0px;
 }
- 
-.custom-navbar-1 a{
+
+.custom-navbar-1 a {
   color: white !important;
 }
 
-.custom-navbar-1 a{
+.custom-navbar-1 a {
   color: white !important;
 }
 
@@ -249,7 +253,7 @@ p {
 
 .custom-carosel {
   padding: 0px 0px;
-  border:0px solid red;
+  border: 0px solid red;
   /* background-image: url("./Assect/image/banner-1.gif"); */
   background-image: url("./Assect/image/life-insurance-1.png");
   object-fit: cover;
@@ -261,7 +265,8 @@ p {
   background-position: center;
 
 }
-.custom-carosel .custom-right-swiper-1{
+
+.custom-carosel .custom-right-swiper-1 {
   border: 0px solid red;
   align-items: center;
   text-align: center;
@@ -269,7 +274,8 @@ p {
   display: flex;
   flex-direction: column;
 }
-.custom-carosel .custom-right-swiper-1 button{
+
+.custom-carosel .custom-right-swiper-1 button {
   border: 0px solid red;
   padding: 20px;
   background-color: var(--primary-color);
@@ -278,7 +284,8 @@ p {
   border-radius: 20px;
   font-weight: bold;
 }
-.custom-carosel .custom-swiper-gold{
+
+.custom-carosel .custom-swiper-gold {
   background-image: url("../src/Assect/image/gold-loan-1.png");
   height: 300px;
   width: 100%;
@@ -320,8 +327,9 @@ p {
   background-color: black !important;
 }
 
-.custom-carosel .swiper-button-prev, .custom-carosel .swiper-button-next{
-  color:black ;
+.custom-carosel .swiper-button-prev,
+.custom-carosel .swiper-button-next {
+  color: black;
   border: 1px solid var(--primary-color);
   font-size: 18px !important;
   border-radius: 30px;
@@ -329,60 +337,65 @@ p {
   height: 60px;
 }
 
-.custom-carosel .swiper-button-prev:after, .custom-carosel .swiper-button-next:after{
-font-size: 20px;
+.custom-carosel .swiper-button-prev:after,
+.custom-carosel .swiper-button-next:after {
+  font-size: 20px;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* <<<<<<<<<<<<<<<<<<<<<custom-customer-1>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.custom-customer-1{
-  border:0px solid red;
-  margin:0px -12px;
+.custom-customer-1 {
+  border: 0px solid red;
+  margin: 0px -12px;
   text-align: center;
-  padding:10px 20px;
+  padding: 10px 20px;
   background-color: var(--primary-color);
   color: var(--white-color);
 }
-.custom-inside-customer-1{
-  border:0px solid red;
+
+.custom-inside-customer-1 {
+  border: 0px solid red;
 }
-.custom-inside-customer-1 p{
+
+.custom-inside-customer-1 p {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.customer-icon{
+.customer-icon {
   font-size: 20px;
 }
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<customer-credit-product>>>>>>>>>>>>>>>>>>>>> */
-.customer-credit-product{
+.customer-credit-product {
   border: 0px solid red;
-  margin:0px -12px;
+  margin: 0px -12px;
   padding: 35px 0px;
   display: block;
 }
 
-.customer-credit-product-mobile{
+.customer-credit-product-mobile {
   display: none;
 
 }
 
-.customer-credit-product h2{
+.customer-credit-product h2 {
   color: #1b1dc7;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-right: 128px;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 128px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
-.customer-credit-product h2::after{
+
+.customer-credit-product h2::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -392,11 +405,12 @@ font-size: 20px;
   top: 10px;
   right: 0;
 }
+
 .custom-inside-credit-product {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height:260px;
+  height: 260px;
   padding: 16px 14px 0;
   background-color: #fff;
   border-radius: 8px;
@@ -404,7 +418,8 @@ font-size: 20px;
   box-shadow: 0 2px 4px 0 rgba(5, 47, 95, .04), 0 12px 16px 0 rgba(52, 105, 203, .12);
   margin-bottom: 32px;
   cursor: pointer;
-  transition: background-color .3s, box-shadow .3s; /* Smooth transition for background color and box-shadow */
+  transition: background-color .3s, box-shadow .3s;
+  /* Smooth transition for background color and box-shadow */
   position: relative;
   margin-top: 20px;
   margin-right: 20px;
@@ -412,30 +427,36 @@ font-size: 20px;
 }
 
 .custom-inside-credit-product:hover {
-  background-color: #f0f0f0; /* Change background color on hover */
-  box-shadow: 0 4px 8px 0 rgba(5, 47, 95, .1), 0 16px 20px 0 rgba(52, 105, 203, .15); /* Enhanced shadow on hover */
+  background-color: #f0f0f0;
+  /* Change background color on hover */
+  box-shadow: 0 4px 8px 0 rgba(5, 47, 95, .1), 0 16px 20px 0 rgba(52, 105, 203, .15);
+  /* Enhanced shadow on hover */
 }
 
 /* Styling for the icon */
 .arrow-icon {
   display: inline-block;
-  transition: transform 0.3s ease; /* Smooth transition for transform */
+  transition: transform 0.3s ease;
+  /* Smooth transition for transform */
 }
 
 /* Animate the icon to move right on hover */
 .custom-inside-credit-product:hover .arrow-icon {
-  transform: translateX(10px); /* Move the icon 10px to the right */
+  transform: translateX(10px);
+  /* Move the icon 10px to the right */
 }
 
-.custom-inside-credit-product img{
+.custom-inside-credit-product img {
   width: 60px;
   position: absolute;
-  top:0;
-  right:15px;
+  top: 0;
+  right: 15px;
 }
 
-.custom-inside-credit-product h6{
+.custom-inside-credit-product h6 {
   color: var(--primary-color);
+  position: absolute;
+  bottom: 15px;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>> */
@@ -513,6 +534,7 @@ font-size: 20px;
 
 .custom-inside-bottom-body img {
   width: 100%;
+  height: 250px;
 }
 
 .custom-inside-bottom-body h2 {
@@ -561,12 +583,16 @@ font-size: 20px;
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:280px) and (max-width:991px) {
 
+  .custom-inside-bottom-body img{
+    height: 100%;
+  }
+
   /* <<<<<<<<<<<<<<<<secondnavbar>>>>>>>>>>>>>> */
   .custom-web-nav {
     display: none;
   }
 
-  .custom-mobile-nv-h{
+  .custom-mobile-nv-h {
     font-size: 10px;
     margin-top: 6px;
   }
@@ -645,8 +671,8 @@ font-size: 20px;
     background-image: none;
   }
 
-  .custom-carosel .custom-right-swiper-1{
-   padding: 20px 0px;
+  .custom-carosel .custom-right-swiper-1 {
+    padding: 20px 0px;
   }
 
   .inside-swiper-home img {
@@ -659,7 +685,7 @@ font-size: 20px;
     height: 100%;
   }
 
-  .custom-inside-body-2 img{
+  .custom-inside-body-2 img {
     height: 100%;
   }
 
@@ -684,63 +710,75 @@ font-size: 20px;
     background-color: var(--primary-color);
     padding: 20px;
   }
-  .custom-services{
+
+  .custom-services {
     padding: 0px !important;
   }
-  .custom-right-gold img{
+
+  .custom-right-gold img {
     width: 100%;
   }
-  .custom-gold-box{
+
+  .custom-gold-box {
     margin-top: 20px;
   }
-  .custom-swiper-gold{
+
+  .custom-swiper-gold {
     height: 200px !important;
   }
-  .inside-swiper-gold h2{
-      font-size: 10px;
-  }
-  .custom-gold-btn{
+
+  .inside-swiper-gold h2 {
     font-size: 10px;
   }
-  .custom-inside-customer-1{
+
+  .custom-gold-btn {
+    font-size: 10px;
+  }
+
+  .custom-inside-customer-1 {
     margin-bottom: 10px;
   }
-  .navbar-expand-lg .navbar-brand{
+
+  .navbar-expand-lg .navbar-brand {
     font-size: 15px;
     justify-content: left !important;
     align-items: flex-start !important;
     /* width: 65%; */
   }
+
   .custom-mobile-logo {
     width: 12%;
-}
-.custom-inside-customer-1 p{
-  display: flex;
-  justify-content: left;
+  }
 
-}
+  .custom-inside-customer-1 p {
+    display: flex;
+    justify-content: left;
+
+  }
 
 }
 
 @media (min-width:280px) and (max-width:991px) {
-  .customer-credit-product{
+  .customer-credit-product {
     display: none;
   }
-  .customer-credit-product-mobile{
+
+  .customer-credit-product-mobile {
     display: block;
   }
 
-  .customer-credit-product-mobile h2{
+  .customer-credit-product-mobile h2 {
     color: #1b1dc7;
-      font-size: 14px;
-      font-weight: 700;
-      text-transform: uppercase;
-      padding-right: 128px;
-      position: relative;
-      display: inline-block;
-      overflow: hidden;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 128px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
   }
-  .customer-credit-product-mobile h2::after{
+
+  .customer-credit-product-mobile h2::after {
     content: "";
     width: 120px;
     height: 1px;
@@ -750,29 +788,34 @@ font-size: 20px;
     top: 10px;
     right: 0;
   }
-  .custom-inside-credit-product-mobile{
-    border:0px solid red;
+
+  .custom-inside-credit-product-mobile {
+    border: 0px solid red;
     text-align: center;
     margin-right: 10px;
     width: 40px;
   }
-  .custom-inside-credit-product-mobile img{
+
+  .custom-inside-credit-product-mobile img {
     font-size: 12px;
     font-weight: 400;
   }
-  .custom-inside-credit-product-mobile img{
+
+  .custom-inside-credit-product-mobile img {
     width: 25px;
   }
-  .custom-inside-credit-product-mobile h6{
-   font-size: 10px;
+
+  .custom-inside-credit-product-mobile h6 {
+    font-size: 10px;
   }
-  .custom-inside-credit-product-mobile button{
+
+  .custom-inside-credit-product-mobile button {
     border: none;
     padding: 5px;
     background-color: var(--primary-color);
     border-radius: 20px;
-    color:var(--white-color);
+    color: var(--white-color);
     font-size: 10px;
-    width:80px;
+    width: 80px;
   }
 }

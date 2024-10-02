@@ -429,12 +429,12 @@ function Navbar() {
                                     </div>
                                     <div>
                                         <div className='d-flex mt-4 align-items-baseline'>
-                                            <h5 >Phone Number :</h5>
-                                            <p className='mt-0 ms-3 fs-5'><MdPhoneInTalk /> 9150740976</p>
+                                           
+                                            <p className='mt-0 ms-3 fs-5 contact-1'><MdPhoneInTalk /> 9150740976</p>
                                         </div>
                                         <div className='d-flex mt-4  align-items-baseline'>
-                                            <h5 >Email Address :</h5>
-                                            <p className='mt-0 ms-3 fs-5'><CiMail /> admin@indiamoney.co.in</p>
+                                          
+                                            <p className='mt-0 ms-3 fs-5  contact-1'><CiMail /> admin@indiamoney.co.in</p>
                                         </div>
 
 

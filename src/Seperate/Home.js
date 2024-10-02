@@ -1,13 +1,13 @@
 import React from 'react';
-import ban1 from "../Assect/image/gold-loan-1.png"
+import ban1 from "../Assect/image/tax.webp"
 import ban2 from "../Assect/image/life-insurance-1.png"
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import swiper from "../Assect/image/swiper-img.png"
 import doteright from "../Assect/image/lines-1.png"
-import sec1 from "../Assect/image/box-3.png"
-import sec2 from "../Assect/image/box-2.png"
-import sec3 from "../Assect/image/box1.png"
+import sec1 from "../Assect/image/portfolio-1.jpg"
+import sec2 from "../Assect/image/mutual-1.jpeg"
+import sec3 from "../Assect/image/financial-1.jpeg"
 import doteleft from "../Assect/image/lines-2.png"
 import { LuRefreshCw } from "react-icons/lu";
 import { CiClock2 } from "react-icons/ci";
@@ -15,7 +15,7 @@ import { CgProfile } from "react-icons/cg";
 import { CiGift } from "react-icons/ci";
 import { FaArrowRightLong } from "react-icons/fa6";
 import card1 from "../Assect/image/11.svg"
-import card2 from "../Assect/image/personal-loan.jpg"
+import card2 from "../Assect/image/mortgage-loan.png"
 import card3 from "../Assect/image/insu-loan.jpg"
 import card4 from "../Assect/image/14.svg"
 import card5 from "../Assect/image/15.svg"
@@ -27,6 +27,7 @@ import card10 from "../Assect/image/income-tax.jpg"
 // import banner1 from "../Assect/image/banner-1.gif."
 import ring from "../Assect/image/laurel.png"
 import { RxCross2 } from "react-icons/rx";
+import { IoStarSharp } from "react-icons/io5";
 
 
 // Import Swiper styles
@@ -104,16 +105,16 @@ function Home() {
 
                                                             </div>
                                                         </SwiperSlide>
-                                                        <SwiperSlide>
+                                                        {/* <SwiperSlide>
                                                             <div className='custom-swiper-gold'>
 
                                                             </div>
-                                                        </SwiperSlide>
-                                                        <SwiperSlide>
+                                                        </SwiperSlide> */}
+                                                        {/* <SwiperSlide>
                                                             <div className='custom-swiper-gold'>
 
                                                             </div>
-                                                        </SwiperSlide>
+                                                        </SwiperSlide> */}
                                                     </Swiper>
                                                 </>
                                             </div>
@@ -172,27 +173,18 @@ function Home() {
                     <div className='container'>
                         <div className='row'>
                             <div className='col-lg-12'>
-                                <div className='row'>
+                                <div className='row justify-content-around'>
                                     <div className='col-lg-3'>
                                         <div className='custom-inside-customer-1'>
-                                            <p><LuRefreshCw className='customer-icon me-2' /> 50+ Banks</p>
+                                            <p> <IoStarSharp className='customer-icon me-2' /> Empowering Your Financial Growth</p>
                                         </div>
                                     </div>
                                     <div className='col-lg-3'>
                                         <div className='custom-inside-customer-1'>
-                                            <p><CiClock2 className='customer-icon  me-2' /> Contactless KYC</p>
+                                            <p><IoStarSharp  className='customer-icon me-2'/> Investing in Your Dreams</p>
                                         </div>
                                     </div>
-                                    <div className='col-lg-3'>
-                                        <div className='custom-inside-customer-1'>
-                                            <p><CgProfile className='customer-icon  me-2' /> 5,00,00,000+ Happy Customers</p>
-                                        </div>
-                                    </div>
-                                    <div className='col-lg-3'>
-                                        <div className='custom-inside-customer-1'>
-                                            <p><CiGift className='customer-icon  me-2' /> Exclusive Offers & Rates</p>
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -211,7 +203,7 @@ function Home() {
                                 <h2>Credit Products</h2>
                                 <div className='row row-cols-lg-4 row-cols-sm-2 row-cols-md-2'>
                                     <div className='cols'>
-                                        <a href='/creditcard'>
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>CREDIT CARD</h5>
                                                 <p className='mt-3 mb-3'> Elevate Your Spending Experience.Get up to 10% cashback on what you love</p>
@@ -222,7 +214,7 @@ function Home() {
 
                                     </div>
                                     <div className='cols'>
-                                        <a href='/financial'>
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>FINANCIAL MARKETS</h5>
                                                 <p className='mt-3 mb-3'>The physical & digital of investing starts here. Brace yourselves for intuitive and financial solutions for beginners, intermediate as well as advanced </p>
@@ -280,7 +272,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a href='/register'>
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>REGISTRATION</h5>
                                                 <p className='mt-3 mb-3'>Get licenses and registrations required to operate a business in India online. Experience fast services and low prices.</p>
@@ -315,7 +307,7 @@ function Home() {
                                     </div>
 
                                     <div className='cols'>
-                                        <a href='/goldbuyer'>
+                                        <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                             <div className='custom-inside-credit-product'>
                                                 <h5>SELL YOUR GOLD</h5>
                                                 <p className='mt-3 mb-3'>Looking to sell your gold ?Contact us for the best rates and hassle-free transactions. Trustworthy service guaranteed.</p>
@@ -359,7 +351,7 @@ function Home() {
                                         </div>
                                     </a> */}
 
-                                    <a  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card1} alt=''></img>
                                             <h6>Credit Card</h6>
@@ -374,21 +366,21 @@ function Home() {
                                         </div>
                                     </a> */}
 
-                                    <a  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card2} alt=''></img>
                                             <h6>FINANCIAL MARKETS</h6>
                                         </div>
                                     </a>
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card3} alt=''></img>
                                             <h6>INSURANCE</h6>
                                         </div>
                                     </a>
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card4} alt=''></img>
                                             <h6>INVESTMENTS</h6>
@@ -398,13 +390,13 @@ function Home() {
 
                                 </div>
                                 <div className='d-flex  justify-content-between mt-4'>
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card5} alt=''></img>
                                             <h6>LOAN</h6>
                                         </div>
                                     </a>
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card6} alt=''></img>
                                             <h6>PAYMENT </h6>
@@ -418,14 +410,14 @@ function Home() {
                                         </div>
                                     </a> */}
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card7} alt=''></img>
                                             <h6>REGISTRATION</h6>
                                         </div>
                                     </a>
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile'>
                                             <img src={card8} alt=''></img>
                                             <h6>SAVINGS</h6>
@@ -434,7 +426,7 @@ function Home() {
 
                                 </div>
                                 <div className='d-flex mt-4 jutify-content-between'>
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile me-4'>
                                             <img src={card9} alt=''></img>
                                             <h6>STAMP PAPER</h6>
@@ -448,14 +440,14 @@ function Home() {
                                         </div>
                                     </a> */}
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile me-4'>
                                             <img src={card9} alt=''></img>
                                             <h6>Sell Your Gold</h6>
                                         </div>
                                     </a>
 
-                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                                    <a data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
                                         <div className='custom-inside-credit-product-mobile ms-2'>
                                             <img src={card10} alt=''></img>
                                             <h6>TAX</h6>
@@ -482,11 +474,8 @@ function Home() {
                                             <img src={ban1} alt=""></img>
                                             {/* <h2 className='img-inside'>Banner 2 </h2> */}
                                             <div className='custom-line-1'>
-                                                <h2 className="fw-bold">Gold Loan</h2>
-                                                <p>Lorem Ipsum is simply dummy</p>
-                                                <p>text of the printing and typesetting industry</p>
-                                                <p>Lorem Ipsum has been the industry's standard dummy</p>
-                                                <p>\text ever since the 1500s, when an unknown printer took a galley</p>
+                                                <h2 className="fw-bold">TAX</h2>
+                                               <p>File your Taxes now in 3 easy steps, on India's most trusted Income Tax filing portal. Zero data-entry filing experience. Auto-selection of ITR type and regime.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -496,10 +485,7 @@ function Home() {
                                             {/* <h2 className='img-inside'>Banner 2 </h2> */}
                                             <div className='custom-line-1'>
                                                 <h2 className="fw-bold">Life Insurance</h2>
-                                                <p>Lorem Ipsum is simply dummy</p>
-                                                <p>text of the printing and typesetting industry</p>
-                                                <p>Lorem Ipsum has been the industry's standard dummy</p>
-                                                <p>\text ever since the 1500s, when an unknown printer took a galley</p>
+                                               <p>Simplify your life with Here, the one-stop app for managing your insurance, vehicles, health, pets & more!</p>
                                             </div>
                                         </div>
                                     </div>
@@ -523,7 +509,7 @@ function Home() {
                                     <div className='col-lg-4'>
                                         <div className='custom-inside-bottom-body'>
                                             <img src={sec3} alt=""></img>
-                                            <h2>  FINANCIAL PLANING </h2>
+                                            <h2>  FINANCIAL PLANNING </h2>
                                             <p> Take advantage of the current volatility by investing over the next 6 months in our equity funds in a systematic manner with a 6-month SIP. Invest Now.</p>
                                         </div>
                                     </div>
@@ -537,7 +523,7 @@ function Home() {
                                     <div className='col-lg-4'>
                                         <div className='custom-inside-bottom-body'>
                                             <img src={sec1} alt=""></img>
-                                            <h2>PORTFOLI MANAGEMENT </h2>
+                                            <h2>PORTFOLIO MANAGEMENT </h2>
                                             <p> Our Portfolios are managed by registered and well established portfolio managers with the objective of consistent long-term returns.y</p>
                                         </div>
                                     </div>

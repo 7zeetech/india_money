@@ -243,6 +243,21 @@
   font-size: 13px;
   margin-top: 20px;
 }
+
+
   /* <<<<<<<<<<<<<<<<<end>>>>>>>>> */
+
+  @media(min-width:280px) and (max-width:991px){
+    .custom-top-modal{
+        padding: 0px;
+    }
+
+    .commeing-soon-modal p{
+      font-size: 20px !important;
+    }
+    .contact-1{
+      font-size: 18px !important;
+    }
+  }
 
 

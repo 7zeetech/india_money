@@ -21,8 +21,7 @@ function Footer() {
                                         <div className='custom-left-side-fotter'>
                                             <h2 className='mb-3' data-bs-toggle="modal" data-bs-target="#staticBackdrop-1" style={{ cursor: "pointer" }}>About Us</h2>
 
-                                            <p className='mt-3'>Indiamoney was started with aim of catering all kind of Financial Services for All type of Customers, Retail and Online .
-                                                We have started our operation in a small manner with a single bank DSA to now having around 10 NBFC/bant to cater the  needs of all type of customers  </p>
+                                            <p className='mt-3'>Indiamoney Finserv was started on 2017,  with the aim of Catering all Kind Of Financial Services for Retail as well as Online Customers in a best manner.  We have been gaining grounds in retail markets with Loans,  Insurance (Life, Vehicle General), Mediclaim Licenses, Forex services with Major Banks & NBFC, and Top Insurance companies.</p>
                                         </div>
                                     </div>
                                     <div className='col-lg-3'>
