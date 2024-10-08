@@ -28,8 +28,8 @@ function Footer() {
                                         <div className='custom-left-one-side-footer'>
                                             <h2>Reach Us</h2>
 
-                                            <h6 className='mt-3' style={{ textDecoration: "underline" }}>Admin Office :</h6>
-                                            <p className='mb-3 custom-admin' > No.10/11, 6th Floor , Chennai Citi Centre,  Dr Radha Krishnan Road, Chennai,<br></br> India - 600004.</p>
+                                            {/* <h6 className='mt-3' style={{ textDecoration: "underline" }}>Admin Office :</h6> */}
+                                            {/* <p className='mb-3 custom-admin' > No.10/11, 6th Floor , Chennai Citi Centre,  Dr Radha Krishnan Road, Chennai,<br></br> India - 600004.</p> */}
                                             <h6 className='fw-bold mt-3' style={{ textDecoration: "underline" }}>Registered Office  :</h6>
                                             <p className='mb-3  custom-admin'>No.18, Level 1, Devchand House Block-A, Dr Annie Besant Rd, Shiv Sagar Estate, Worli, Mumbai, India - 400018.</p>
 
