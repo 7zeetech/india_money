@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Seperate/Navbar';
 import Home from './Seperate/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Services from './Seperate/Services';
 import Goldbuyer from './Seperate/Goldbuyer';
 import Footer from './Seperate/Footer';
@@ -13,15 +14,15 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/register" element={<Services />} />
+          {/* <Route path="/register" element={<Services />} />
           <Route path="/goldbuyer" element={<Goldbuyer />} />
           <Route path="/creditcard" element={<Creditcard />} />
-          <Route path="/financial" element={<Financial />} />
+          <Route path="/financial" element={<Financial />} /> */}
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
     </div>
   );
